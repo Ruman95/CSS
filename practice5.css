@@ -1,0 +1,42 @@
+nav{
+    margin: 10px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+header{
+    background-color: cornflowerblue;
+    border: 5px dotted beige;
+    height: 30px;
+}
+#divmain{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block   ;
+    background-color: crimson;
+}
+#container{
+    border: 5px solid black;
+    margin:5px
+}
+#box4{
+    position: fixed;
+    right:10px;
+}
+#box2{
+    z-index: 2;
+    position: absolute;
+}
+#footer{
+    position: fixed;
+    bottom: 10px;
+}

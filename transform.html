@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            transition: all 1s ease-in-out;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        .box:hover{
+            height: 110px;
+            width: 110px;
+            /* transform: rotatez(10px);     this is to rotate over axis*/
+            /* transform: translate(50px,50px); this is to move elemet from position to position */
+            transform: skew(90deg);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Transform</div>
+</body>
+</html>
